@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#ffeeeeee" />
+    <corners android:radius="16dp" />
+    <stroke android:color="#50cccccc" android:width="4dp" />
+</shape><!-- From: file:/Users/neo-optimus/Documents/Android_Apps/gas%20rotator%20project%20flameeye/SeekArc_library/res/drawable-xhdpi/container_dropshadow.xml --><!-- From: file:/Users/neo-optimus/Documents/Android_Apps/gas%20rotator%20project%20flameeye/SeekArc_sample/build/intermediates/exploded-aar/gas%20rotator%20project%20flameeye/SeekArc_library/unspecified/res/drawable-xhdpi/container_dropshadow.xml -->

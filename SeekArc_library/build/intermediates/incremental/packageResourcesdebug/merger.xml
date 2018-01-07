@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res"><file name="knob2" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable/knob2.png" qualifiers="" type="drawable"/><file name="seek_arc_control_selector" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable/seek_arc_control_selector.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-hdpi/ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="container_dropshadow" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/container_dropshadow.xml" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="knob" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/knob.png" qualifiers="xhdpi" type="drawable"/><file name="scrubber_control_disabled_holo" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/scrubber_control_disabled_holo.png" qualifiers="xhdpi" type="drawable"/><file name="scrubber_control_focused_holo" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/scrubber_control_focused_holo.png" qualifiers="xhdpi" type="drawable"/><file name="scrubber_control_normal_holo" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/scrubber_control_normal_holo.png" qualifiers="xhdpi" type="drawable"/><file name="scrubber_control_pressed_holo" path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/drawable-xhdpi/scrubber_control_pressed_holo.png" qualifiers="xhdpi" type="drawable"/><file path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/values/attrs.xml" qualifiers=""><declare-styleable name="SeekArc">
+        <attr format="reference" name="thumb"/>
+        <attr format="dimension" name="thumbOffset"/>
+        <attr format="integer" name="max"/>
+        <attr format="dimension" name="progressWidth"/>
+        <attr format="dimension" name="arcWidth"/>
+        <attr format="integer" name="progress"/>
+        <attr format="integer" name="rotation"/>
+        <attr format="integer" name="startAngle"/>
+        <attr format="integer" name="sweepAngle"/>
+        <attr format="color" name="arcColor"/>
+        <attr format="color" name="progressColor"/>
+        <attr format="boolean" name="roundEdges"/>
+        <attr format="boolean" name="touchInside"/>
+        <attr format="boolean" name="clockwise"/>
+        <attr format="boolean" name="enabled"/>
+    </declare-styleable><declare-styleable name="SeekArcTheme">
+        <attr format="reference" name="seekArcStyle"/>        
+    </declare-styleable><declare-styleable name="RotaryKnob">
+        <attr format="boolean" name="showValue"/>
+        <attr format="boolean" name="showUnit"/>
+        <attr format="string" name="unit"/>
+        <attr format="integer" name="numDigits"/>
+        <attr format="float" name="minValue"/>
+        <attr format="float" name="maxValue"/>
+        <attr format="float" name="value"/>
+        <attr format="integer" name="numSteps"/>
+        <attr format="color" name="valueColor"/>
+        <attr format="integer" name="valuePosition"/>
+        <attr format="dimension" name="textSize"/>
+
+        <attr format="boolean" name="trackValue"/>
+
+        <attr format="float" name="sector_openAngle"/>
+        <attr format="integer" name="sector_rotation"/>
+        <attr format="float" name="sector_minRadius"/>
+        <attr format="float" name="sector_maxRadius"/>
+        <attr format="color" name="sector_backgroundColor"/>
+        <attr format="color" name="sector_foregroundColor"/>
+
+        <attr format="boolean" name="showTicks"/>
+        <attr format="boolean" name="subtractTicks"/>
+        <attr format="float" name="ticks_minRadius"/>
+        <attr format="float" name="ticks_maxRadius"/>
+        <attr format="color" name="ticks_color"/>
+        <attr format="dimension" name="ticks_thickness"/>
+        <attr format="dimension" name="ticks_subtractionThickness"/>
+        <attr format="integer" name="numTicks"/>
+
+        <attr format="boolean" name="showNeedle"/>
+        <attr format="color" name="needle_color"/>
+        <attr format="dimension" name="needle_thickness"/>
+        <attr format="float" name="needle_radius"/>
+    </declare-styleable></file><file path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/values/colors.xml" qualifiers=""><color name="default_blue_light">#ff33b5e5</color><color name="progress_gray_dark">#FF383838</color><color name="progress_gray">#FFD8D8D8</color></file><file path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/values/RotaryKnob_Simple.xml" qualifiers=""><style name="RotaryKnob_Simple">
+        <item name="showTicks">true</item>
+        <item name="textSize">20sp</item>
+        <item name="ticks_color">#ff006699</item>
+        <item name="needle_color">#ff880000</item>
+        <item name="needle_radius">0.8</item>
+        <item name="ticks_minRadius">0.8</item>
+        <item name="ticks_maxRadius">1.0</item>
+        <item name="sector_maxRadius">0.75</item>
+        <item name="sector_minRadius">0.4</item>
+        <item name="valuePosition">3</item>
+    </style></file><file path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/values/strings.xml" qualifiers=""><string name="app_name">Seekarc_library</string></file><file path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/res/values/styles.xml" qualifiers=""><style name="SeekArcLight">
+        <item name="arcColor">@color/progress_gray</item>
+    </style><style name="SeekArc">
+        <item name="arcColor">@color/progress_gray_dark</item>
+    </style></file></source><source path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/build/generated/res/rs/debug"/><source path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug"><source path="/Users/neo-optimus/Documents/Android_Apps/gas rotator project flameeye/SeekArc_library/src/debug/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SeekArc"><attr format="reference" name="thumb"/><attr format="dimension" name="thumbOffset"/><attr format="integer" name="max"/><attr format="dimension" name="progressWidth"/><attr format="dimension" name="arcWidth"/><attr format="integer" name="progress"/><attr format="integer" name="rotation"/><attr format="integer" name="startAngle"/><attr format="integer" name="sweepAngle"/><attr format="color" name="arcColor"/><attr format="color" name="progressColor"/><attr format="boolean" name="roundEdges"/><attr format="boolean" name="touchInside"/><attr format="boolean" name="clockwise"/><attr format="boolean" name="enabled"/></declare-styleable><declare-styleable name="SeekArcTheme"><attr format="reference" name="seekArcStyle"/></declare-styleable><declare-styleable name="RotaryKnob"><attr format="boolean" name="showValue"/><attr format="boolean" name="showUnit"/><attr format="string" name="unit"/><attr format="integer" name="numDigits"/><attr format="float" name="minValue"/><attr format="float" name="maxValue"/><attr format="float" name="value"/><attr format="integer" name="numSteps"/><attr format="color" name="valueColor"/><attr format="integer" name="valuePosition"/><attr format="dimension" name="textSize"/><attr format="boolean" name="trackValue"/><attr format="float" name="sector_openAngle"/><attr format="integer" name="sector_rotation"/><attr format="float" name="sector_minRadius"/><attr format="float" name="sector_maxRadius"/><attr format="color" name="sector_backgroundColor"/><attr format="color" name="sector_foregroundColor"/><attr format="boolean" name="showTicks"/><attr format="boolean" name="subtractTicks"/><attr format="float" name="ticks_minRadius"/><attr format="float" name="ticks_maxRadius"/><attr format="color" name="ticks_color"/><attr format="dimension" name="ticks_thickness"/><attr format="dimension" name="ticks_subtractionThickness"/><attr format="integer" name="numTicks"/><attr format="boolean" name="showNeedle"/><attr format="color" name="needle_color"/><attr format="dimension" name="needle_thickness"/><attr format="float" name="needle_radius"/></declare-styleable></configuration></mergedItems></merger>
